@@ -115,6 +115,12 @@ html body h2 {
     font-weight: 400;
 }
 
+html body h2:hover {
+    background-color: rgb(136, 134, 134);
+    padding: 7px;
+    border-radius: 5px;
+}
+
 html body h3 {
     font-size: 22px;
     color: rgb(233, 235, 145);
