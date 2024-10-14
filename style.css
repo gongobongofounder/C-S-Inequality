@@ -446,3 +446,17 @@ align,
     font-style: italic;
     margin-bottom: 20px;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+        /* Start with a slight upward shift */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* Settle in its original position */
+    }
+}
